@@ -23,8 +23,9 @@ AppQuest Pedometer is the 4. application for the [App Quest 2016](http://appques
 ![AppQuest Pedometer](http://appquest.hsr.ch/2014/wp-content/uploads/stepcounter.png)
 
 ### Links
+
 - https://de.wikipedia.org/w/index.php?title=Warteschlange_(Datenstruktur)&redirect=no#Ringpuffer
-- 
+ 
 
 ### Given code snippets
 
