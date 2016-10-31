@@ -76,7 +76,7 @@ public class Activity extends Activity implements StepListener {
 	public void onStep() {
 		// Ein Schritt wurde gemacht!
 	}
----
+```
 
 AppQuest Logbuch format
 ```
