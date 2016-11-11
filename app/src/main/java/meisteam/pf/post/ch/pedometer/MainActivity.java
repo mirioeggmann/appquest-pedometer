@@ -9,7 +9,6 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 public class MainActivity extends Activity implements SensorEventListener {
-
 	private static final int BUFFER_SIZE = 10;
 	private SensorManager sensorManager;
 	private RingBuffer initialRotation = new RingBuffer(BUFFER_SIZE);
