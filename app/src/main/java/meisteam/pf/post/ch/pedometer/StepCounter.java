@@ -23,7 +23,6 @@ public class StepCounter implements SensorEventListener {
 	}
 
 	public void onSensorChanged(SensorEvent event) {
-		
 		float x = event.values[0];
 		float y = event.values[1];
 		float z = event.values[2];
