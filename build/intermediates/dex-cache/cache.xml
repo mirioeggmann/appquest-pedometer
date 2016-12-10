@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_23010858e53adbb9df30f3493c9a7ec1c9308630\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8e7458aadf4f488532be8179923fd19d0416ce7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_c901f9bf01f29f31f32b8549d57c9436cba8c3e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_7a4f324e7b03ba7aa287a6d1f3f779f2bbee0ee4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="P:\Users\mirio.eggmann\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_c60e7a89ed29f076c10ba12925b893bbbd4e557b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="cb0ddc78e5c90688c7eb3c812d5731694683f2e6">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_88a742c51967a138a9e384036314d3305984c7ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7bb41289aeaeee24a4ca6e0cce035227609b8e9c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_566936e0d1e9702d550941713438560378409c5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_28d930ab25520c4e966b08e2e523d2fa38322b2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_c1526d9cbf35df50f875fa516ddbfae49b75c7dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_3d60f09f85a243d973620e6ed902512babcf7471\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_b545af19eded585cb6ac568dce7225cf07e8b175\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="29c426f3ff52238291c86e939dff6bd8a877b86c">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.journeyapps-zxing-android-embedded-3.3.0_efd379968eb7d84cd8d481028b79be9875d27677\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_bd3a9afb49f2265c738f74962291a16fda0e52ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_45b0610012ace81981b02ce735ad8701b98a9f50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_e8dd1999b450edada0bde840817c57d30bccd7bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_852d824337b1c5e104af3b5d47e3bf1376c9d2a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_e85fd5a119b8de18f6ff1568e44136c8e331ca52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_771e22e776c11054b17547e427cf3c3bbdaeebd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="89715e966dd997b0637067634086c4bd4f96336f">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a289aa81213a4d51e3751363e2f138080fcaea29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\mirio.eggmann\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\mirio.eggmann\StudioProjects\appquest-pedometer\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_549c3fa9834bf64a64d26b4ef1ae90af2655d462\classes.dex" />
+    </item>
+
+</items>

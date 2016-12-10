@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">PedoMeter</string>
+    <string name="app_name">AppQuest Pedometer</string>
+    <string name="action_settings">Settings</string>
 </resources>

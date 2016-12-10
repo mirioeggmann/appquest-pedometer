@@ -2,7 +2,14 @@ package meisteam.pf.post.ch.pedometer;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -10,18 +17,53 @@ import android.widget.TextView;
 import com.google.zxing.client.android.Intents;
 import com.google.zxing.integration.android.IntentIntegrator;
 
-public class WalkActivity extends Activity {
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public class WalkActivity extends AppCompatActivity implements SensorEventListener {
+
+    private int startStation;
+    private int endStation;
+    private char startOrEnd = 's';
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_walk);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+    }
 
-        ((Button) findViewById(R.id.take_qr_picture_button)).setOnClickListener(new View.OnClickListener() {
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuItem menuItem1 = menu.add("Start Station");
+        menuItem1.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
             @Override
-            public void onClick(View v) {
+            public boolean onMenuItemClick(MenuItem item) {
+                startOrEnd = 's';
                 takeQrCodePicture();
+                return false;
             }
         });
+        MenuItem menuItem2 = menu.add("End Station");
+        menuItem2.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                startOrEnd = 'e';
+                takeQrCodePicture();
+                return false;
+            }
+        });
+        MenuItem menuItem = menu.add("Log");
+        menuItem.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                writeLog();
+                return false;
+            }
+        });
+
+        return super.onCreateOptionsMenu(menu);
     }
 
     public void takeQrCodePicture() {
@@ -41,8 +83,42 @@ public class WalkActivity extends Activity {
             Bundle extras = data.getExtras();
             String commands = extras.getString(
                     Intents.Scan.RESULT);
-
-            ((TextView) findViewById(R.id.main_text_view)).setText(commands);
+            JSONObject jsonCommands = null;
+            try {
+                jsonCommands = new JSONObject(commands);
+                if (startOrEnd == 's') {
+                    this.startStation = jsonCommands.getInt("startStation");
+                    ((TextView) findViewById(R.id.commandOutTextView)).setText(commands);
+                } else {
+                    this.endStation = jsonCommands.getInt("endStation");
+                }
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
         }
+    }
+
+    @Override
+    public void onSensorChanged(SensorEvent sensorEvent) {
+
+    }
+
+    @Override
+    public void onAccuracyChanged(Sensor sensor, int i) {
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == R.id.action_settings) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void writeLog() {
+        Intent logIntent = new LogFactory(this).getLogActivity(startStation, endStation);
+        this.startActivity(logIntent);
     }
 }
